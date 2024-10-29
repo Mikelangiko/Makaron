@@ -1,0 +1,28 @@
+.main-content__block2 {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: #4d7499;
+  padding: 20px;
+  flex-grow: 4;
+}
+.main-content__block2 h2 {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.main-content__block2 p {
+  margin-bottom: 10px;
+}
+.image-row2 {
+  display: flex;
+  justify-content: space-between; /* Вирівнює картинки в ряд */
+  margin: 10px 50px; /* Додає відстань між текстом і картинками */
+}
+
+.image-row img {
+  margin: 0 5px; /* Додає відстань між картинками */
+  width: auto; /* Забезпечує адаптивність картинки */
+  height: auto; /* Зберігає пропорції картинки */
+}

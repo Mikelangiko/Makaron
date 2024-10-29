@@ -1,0 +1,27 @@
+.main-content__block1 {
+  display: flex;
+  flex: 1;
+  background-color: #94b9df;
+  padding: 20px;
+  flex-grow: 1;
+  flex-direction: column;
+}
+.main-content__block1 h2 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.main-content__block1 p {
+  margin-bottom: 10px;
+}
+.image-row {
+  display: flex;
+  justify-content: space-between; /* Вирівнює картинки в ряд */
+  margin: 10px 100px; /* Додає відстань між текстом і картинками */
+}
+.main-content__block1 img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
